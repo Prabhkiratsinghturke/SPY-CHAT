@@ -2,7 +2,7 @@ from datetime import datetime               # this statement impot the date time
 
 class Spy:                                      # here,spy is a class name
 
-    def __init__(self, name, salutation, age, rating):          # here 'self' is a constructor for spy
+    def __init__(self, name, salutation, age, rating):          # here 'self' is also a another variable like others ,it is used for accessing the values from class variables...
         self.name = name
         self.salutation = salutation
         self.age = age
@@ -28,12 +28,13 @@ spy = Spy('Mika', 'Mr.', 44, 4.7)           #default values....
 
 
 
-
-friend_one = Spy('Salman', 'Mr.',  40,5)      #default friends info.....
-friend_two = Spy('Akshay', 'Ms.',  25,2.5)
-friend_three = Spy('Aman', 'Dr.', 35,4.2)
-
-
+#default friends info.....
+f1 = Spy('Salman', 'Mr.',  40,5)            # friend one info.....
+f2 = Spy('Akshay', 'Ms.',  25,2.5)               # friend two info.....
+f3 = Spy('Aman', 'Dr.', 35,4.2)              # friend three info.....
 
 
-friends = [friend_one, friend_two, friend_three]            # list of friends....
+
+
+friends = [f1, f2, f3]            # list of friends....
+messages=['help me','save me','sos','help']
